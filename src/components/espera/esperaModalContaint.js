@@ -217,11 +217,7 @@ class editForm extends React.Component {
     }
     return (
       <Row gutter={8} type="flex" justify="end">
-        <Col xs={24} sm={20}>
-          <Upload {...props} >
-            <Button> <Icon type="upload" />Añadir archivo</Button>
-          </Upload>
-        </Col>
+
       </Row>
     )
   }
